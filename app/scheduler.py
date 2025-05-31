@@ -60,7 +60,7 @@ def run_scheduler(config: ConfigManager):
     # Schedule the job
     # For testing, you might want to run it more frequently:
     # schedule.every(1).minutes.do(curator_job.run_daily_indian_equity_job)
-    schedule.every().day.at("18:00").do(curator_job.run_daily_indian_equity_job) # Example: Run daily at 6 PM
+    schedule.every().day.at("12:35").do(curator_job.run_daily_indian_equity_job) # Example: Run daily at 12:35
     # schedule.every().day.at("01:00").do(curator_job.run_daily_indian_equity_job) # After market close (US time) for India EOD
 
     logger.info("Scheduler started. Waiting for scheduled jobs...")
