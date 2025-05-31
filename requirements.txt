@@ -1,0 +1,5 @@
+pandas
+yfinance
+schedule
+PyYAML
+python-dotenv # Optional, but good practice for API keys later
