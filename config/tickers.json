@@ -1,8 +1,25 @@
 {
   "indian_equity": [
+    "^NSEI",
     "RELIANCE.NS",
     "TCS.NS",
     "INFY.NS",
-    "HDFCBANK.NS"
+    "HDFCBANK.NS",
+    "ITC.NS",
+    "COALINDIA.NS",
+    "BAJFINANCE.NS"
+
+  ],
+  "international_equity": [
+    "AAPL",  
+    "MSFT",  
+    "GOOGL", 
+    "AMZN",  
+    "TSLA"   
+  ],
+  "indian_macro_fred": [ 
+    "DEXINUS",      
+    "INDIRLTLT01STM", 
+    "INDCPIALLMINMEI" 
   ]
 }

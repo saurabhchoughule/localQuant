@@ -1,6 +1,13 @@
 data_path: "data" # Relative to project root
 log_file_path: "logs/agent.log"
 log_level: "INFO" # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
 yfinance:
   default_period: "1y" # Default period to fetch if not specified
   default_interval: "1d" # Default interval
+  international_equity_period: "1y"
+
+storage:
+  default_format: "csv" # or "parquet"
+  # We can also specify format per data type later if needed
+  
